@@ -4,6 +4,7 @@ public class Clicker : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
     [SerializeField] private Progress _progress;
+    [SerializeField] private LevelManager _manager;
 
     [SerializeField] private ClickEffect _clickEffectPrefab;
     [SerializeField] private Scaleble _scaleble;
@@ -20,7 +21,7 @@ public class Clicker : MonoBehaviour
                     _scaleble.Scale();
                    ClickEffect clickEffect = Instantiate(_clickEffectPrefab,hit.point,Quaternion.identity);
                    clickEffect.Setup(_progress.CoinsPerClick);
-                    
+                    _manager.AddClick();
                 }
             }
                 
