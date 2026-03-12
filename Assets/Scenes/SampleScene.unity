@@ -1520,6 +1520,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628371909}
   m_CullTransparentMesh: 1
+--- !u!1 &629464582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629464584}
+  - component: {fileID: 629464583}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &629464583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629464582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00766df8b91fa4b7991ce40ce799a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clickForLevel: 0a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a000000
+  _models:
+  - {fileID: 1425256692}
+  - {fileID: 1207845792}
+  - {fileID: 1804751403}
+  - {fileID: 2011667049}
+  - {fileID: 859047262}
+  - {fileID: 57009333}
+  - {fileID: 836085649}
+  - {fileID: 1260512975}
+  - {fileID: 421869703}
+  _scaleImage: {fileID: 1952676624}
+  _level: {fileID: 1453416490}
+--- !u!4 &629464584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629464582}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 316.81317, y: 19.402313, z: -0.7295444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &836085649
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,6 +3605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 330585545}
   _progress: {fileID: 1323011710}
+  _manager: {fileID: 629464583}
   _clickEffectPrefab: {fileID: 3859476722746374539, guid: 829229ebddf1c78c1a24e2f4fba77e4c, type: 3}
   _scaleble: {fileID: 1188888629}
 --- !u!4 &1801486110
@@ -4422,3 +4480,4 @@ SceneRoots:
   - {fileID: 1323011711}
   - {fileID: 1324267812}
   - {fileID: 1801486110}
+  - {fileID: 629464584}
