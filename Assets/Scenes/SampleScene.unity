@@ -218,6 +218,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039517452907933237, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: 20K
+      objectReference: {fileID: 0}
     - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -302,9 +306,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4653932966482109485, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "+100 \u0437\u0430 \u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _name
+      value: "\u041A\u0443\u0440\u0441\u043E\u0440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _price
+      value: 20000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _income
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _incomeOption
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060050770585962958, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "\u041A\u0443\u0440\u0441\u043E\u0440"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -967,6 +999,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039517452907933237, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: 1.3K
+      objectReference: {fileID: 0}
     - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -1051,9 +1087,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4653932966482109485, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "+30 \u0437\u0430 \u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _name
+      value: "\u041C\u0435\u0433\u0430 \u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _price
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _income
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060050770585962958, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "\u041C\u0435\u0433\u0430 \u043A\u043B\u0438\u043A"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1271,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039517452907933237, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: 2K
+      objectReference: {fileID: 0}
     - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -1355,9 +1419,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4653932966482109485, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "+50 \u0437\u0430 \u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _name
+      value: "\u0421\u0442\u0430\u043B\u044C\u043D\u043E\u0439 \u043A\u0443\u0440\u0441\u043E\u0440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _price
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _income
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060050770585962958, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "\u0421\u0442\u0430\u043B\u044C\u043D\u043E\u0439 \u043A\u0443\u0440\u0441\u043E\u0440"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1673,9 +1761,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 502102976}
     m_Modifications:
     - target: {fileID: 257101382591315584, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f9d0fd515a5d09340a535792f35d2da0, type: 3}
+    - target: {fileID: 257101382591315584, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039517452907933237, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f029c87e6ae44722db1aa22aae3edce3, type: 3}
     - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -1760,9 +1860,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4653932966482109485, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "+ 1 \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _name
+      value: "\u0410\u0432\u0442\u043E\u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _price
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _iconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f029c87e6ae44722db1aa22aae3edce3, type: 3}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _incomeOption
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060050770585962958, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "\u0410\u0432\u0442\u043E\u043A\u043B\u0438\u043A"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2941,6 +3069,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (6)
@@ -3473,6 +3605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (7)
@@ -4082,9 +4218,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 502102976}
     m_Modifications:
     - target: {fileID: 257101382591315584, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f9d0fd515a5d09340a535792f35d2da0, type: 3}
+    - target: {fileID: 257101382591315584, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1039517452907933237, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f029c87e6ae44722db1aa22aae3edce3, type: 3}
     - target: {fileID: 2052940242023746353, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -4169,9 +4317,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4653932966482109485, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "+ 25 \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _name
+      value: "\u0421\u0443\u043F\u0435\u0440 \u0410\u0432\u0442\u043E\u043A\u043B\u0438\u043A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _price
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _income
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _progress
+      value: 
+      objectReference: {fileID: 1323011710}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _iconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f029c87e6ae44722db1aa22aae3edce3, type: 3}
+    - target: {fileID: 7536582320601112802, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: _incomeOption
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7896442376764810818, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
       propertyPath: m_Name
       value: Button (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060050770585962958, guid: 982a5aa3ce6747b63aa9d1d27a97a487, type: 3}
+      propertyPath: m_text
+      value: "\u0421\u0443\u043F\u0435\u0440 \u0410\u0432\u0442\u043E\u043A\u043B\u0438\u043A"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

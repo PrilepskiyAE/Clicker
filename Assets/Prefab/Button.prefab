@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -262, y: 92}
+  m_AnchoredPosition: {x: -262.2, y: 112}
   m_SizeDelta: {x: 524.39, y: 203.6669}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1068041726761730091
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+  m_text: "\u0418\u043C\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 768b4f562bf86362c8d963e90f7665c9, type: 2}
   m_sharedMaterial: {fileID: -5276628231878036387, guid: 768b4f562bf86362c8d963e90f7665c9, type: 2}
@@ -167,10 +167,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 23.85
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 294.32675, y: 158.00409, z: 57.009926, w: 17.364052}
+  m_margin: {x: 294.32675, y: 158.00409, z: -42.99227, w: 17.364052}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 150
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 768b4f562bf86362c8d963e90f7665c9, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 74aee5f26be44683fa738144829649a1, type: 2}
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435"
+  m_text: "+1 \u0437\u0430 \u043A\u043B\u0438\u043A"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 768b4f562bf86362c8d963e90f7665c9, type: 2}
   m_sharedMaterial: {fileID: -5276628231878036387, guid: 768b4f562bf86362c8d963e90f7665c9, type: 2}
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 294.32675, y: 158.00409, z: 64.62606, w: 17.364052}
+  m_margin: {x: 294.32675, y: 158.00409, z: -66.214516, w: 17.364052}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -498,6 +498,7 @@ GameObject:
   - component: {fileID: 4620614635537468592}
   - component: {fileID: 1875670444852928006}
   - component: {fileID: 5246161007513584897}
+  - component: {fileID: 7536582320601112802}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -611,6 +612,72 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7536582320601112802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896442376764810818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee690a4ebb85748c92cba9c6341e687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: "\u0418\u043C\u044F"
+  _price: 1
+  _income: 1
+  _incomeOption: 0
+  _iconSprite: {fileID: 21300000, guid: 6d2125db4aa73dd3aa3130ac3fb608b9, type: 3}
+  _nameText: {fileID: 8060050770585962958}
+  _descriptionText: {fileID: 4653932966482109485}
+  _pricrText: {fileID: 1039517452907933237}
+  _button: {fileID: 5246161007513584897}
+  _icon: {fileID: 2052940242023746353}
+  _scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.14792259
+      outSlope: -0.14792259
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3472494
+      value: 0.94863397
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.69418406
+      value: 1.0161436
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -0.052788485
+      outSlope: -0.052788485
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _scalePeriod: 0.2
+  _progress: {fileID: 0}
 --- !u!1 &8576506071587485655
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f029c87e6ae44722db1aa22aae3edce3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d2125db4aa73dd3aa3130ac3fb608b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
