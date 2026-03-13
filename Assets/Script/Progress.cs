@@ -2,20 +2,23 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using System;
 
 public class Progress : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    public float NumberOfCoins;
-    public float CoinsPerClick;
+    public double NumberOfCoins;
+    public double CoinsPerClick;
 
-    public float CoinsPerSecond;
+    public double CoinsPerSecond;
 
     [SerializeField] private TextMeshProUGUI _coinsText;
-    [SerializeField] private TextMeshProUGUI _perSecondText;   
+    [SerializeField] private TextMeshProUGUI _perSecondText;
 
     private float _timer;
+
+    public event Action<Double> OnCoisChanged;
 
     void Start()
     {
@@ -38,11 +41,30 @@ public class Progress : MonoBehaviour
         NumberOfCoins += CoinsPerClick;
         UpdateCoinsText();
     }
-    private void UpdateCoinsText() {
-       _coinsText.text = NumberOfCoins.ToString(); 
+    private void UpdateCoinsText()
+    {
+        _coinsText.text = Formater.Format(NumberOfCoins);
+        OnCoisChanged.Invoke(NumberOfCoins);
     }
     private void UpdatePerSecondText()
     {
-        _perSecondText.text = CoinsPerSecond.ToString();
+        _perSecondText.text = Formater.Format(CoinsPerSecond);
+    }
+
+    public void AddCoinsPerClick(double value, double price)
+    {
+        if (NumberOfCoins < price) return;
+        CoinsPerClick += value;
+        NumberOfCoins -= price;
+        UpdateCoinsText();
+    }
+
+    public void AddCoinsPerSecond(double value, double price)
+    {
+        if (NumberOfCoins < price) return;
+        CoinsPerSecond += value;
+        UpdatePerSecondText();
+        NumberOfCoins -= price;
+        UpdateCoinsText();
     }
 }

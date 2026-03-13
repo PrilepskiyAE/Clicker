@@ -5,7 +5,7 @@ public class ClickEffect : MonoBehaviour
 {
    [SerializeField] private TMP_Text _text;
 
-   public void Setup(float value)
+   public void Setup(double value)
     {
         _text.text=value.ToString();
     }
